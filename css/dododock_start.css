@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.b_heart{}
+
+.purplepian_logo_320{
+  display:block;
+  text-align:center;
+  width:100%;
+  height:71px;
+  top:42%;
+  position: absolute;
+}

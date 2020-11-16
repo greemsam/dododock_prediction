@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.dododock_area{
+  display:block;
+  position: relative;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+.dododock_box{
+  position: absolute;
+  width:100%;
+  height:596px;
+  bottom:-596px;
+}
+.dododock_box>li{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+.dododock_box>li>p{
+  position: absolute;
+  width:100%;
+}
+
+.dododock_cha{
+  width:100%;
+  height:596px;
+  background:url(../img/dododock_character.png) no-repeat;
+  background-position: center;
+}
+
+.d_active{
+  width:100%;
+  height:170px;
+  top:282px;
+  left:0;
+  text-align: center;
+}
+
+.d_active>a{
+  cursor: pointer;
+  display:block;
+  background:url(../img/activated_dododock.png) no-repeat;
+  width:180px;
+  height:170px;
+  margin:0 auto;
+}
+
+
+.text{
+
+  color:#FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.arrow{
+  top:463px;
+}
+
+.han{
+  line-height: 40px;
+  top:500px;
+}
+
+.eng{
+  top:500px;
+}
